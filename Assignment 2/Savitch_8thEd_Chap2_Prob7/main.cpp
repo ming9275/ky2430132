@@ -35,8 +35,12 @@ int main(int argc, char** argv) {
     SStax=grspy*0.06;
     fitax=grspy*0.14;
     statax=grspy*0.05;
-    addfee=NDpt*Dfee;
-    ntpy=grspy-SStax-fitax-statax-unidue-addfee;
+    
+    if(NDpt>=3){
+      ntpy=grspy-SStax-fitax-statax-unidue-Dfee;
+    }else{
+      ntpy=grspy-SStax-fitax-statax-unidue;  
+    }
 //Output 
     cout<<setprecision(2);
     cout<<fixed;
@@ -45,7 +49,7 @@ int main(int argc, char** argv) {
     cout<<"The Social Security tax = $"<<SStax<<endl;
     cout<<"The federal income tax  = $"<<fitax<<endl;
     cout<<"The state income tax    = $"<<statax<<endl;
-    cout<<"The additional fee for "<<NDpt<<" dependents = $"<<addfee<<endl;
+    cout<<"The additional fee for "<<NDpt<<" dependents = $"<<Dfee<<endl;
     cout<<"The net take-home pay for the week  = $"<<ntpy<<endl;
     cout<<"-------------------------------------------------------"<<endl;
   
