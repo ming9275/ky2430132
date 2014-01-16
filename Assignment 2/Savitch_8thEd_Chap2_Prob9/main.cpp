@@ -21,6 +21,7 @@ int main(int argc, char** argv) {
 
     //declare variables
     float price, iRate, intst, paymnt, prin=0, owned, intpay=0, month, mpay=0;
+    float tintpay=0;
     //Input price and year interest rate
     cout<<"What was the pruchase price of stereo system? $'s"<<endl;
     cin>>price;
@@ -32,17 +33,20 @@ int main(int argc, char** argv) {
     intst/=(CNV_PERC*CNV_YR_MNS);
     owned=price;
     cout<<setprecision(2)<<fixed<<showpoint<<endl;
-    cout<<"Month     Owned     Interest   Payment    Principal"<<endl;
+    cout<<"Month    Owned      Interest   Payment    Principal"<<endl;
     //loop on months till paid
-    for(int month=0; owned>paymnt; month++){
-       intpay=owned*intst;
-       prin=mpay-intpay;
-       mpay=paymnt;
-       owned-=(mpay-intpay);
-       
-    cout<<setw(4)<<month<<setw(11)<<owned<<setw(10)<<intpay;
-    cout<<setw(12)<<paymnt<<setw(13)<<prin<<endl;
+    for (int month=0; owned>paymnt;month++){
+        owned-=(mpay-intpay);
+        mpay=paymnt;
+        intpay=owned*intst;
+        prin=mpay-intpay;
+        tintpay+=intpay;
+    cout<<setw(4)<<month<<setw(11)<<owned<<setw(12)<<intpay;
+    cout<<setw(10)<<paymnt<<setw(12)<<prin<<endl;
     }
+    //final payment
+    cout<<"Your final Payment = $"<<owned+intpay<<endl;
+    cout<<"Your total interest payment = $"<<tintpay<<endl;
     return 0;
 }
 
