@@ -1,0 +1,14 @@
+This program is called Super 24, and Super 24 is a math game. Here the instruction for this game is :
+***
+Super 24 is about math. Player is just required simple math skill.First Computer will generate 4 random numbers which are within the range (1-13) .Then player needs to use +,-,*,/ to calculate 24 and enter your formula. When you enter a formula, the computer will compute the answer base on you formula to see if your answer is correct or not.However, sometime, you will found that you cannot use those numbers to calculate 24. Therefore, before you input your equation, please input if you want to skip this problem.  For example, 
+================Let's start Super 24================
+Please use the following numbers and (+,-,*,/) to get 24
+4  12   7  12
+------------------------------------------------
+You can now enter the numbers and operators 
+If you can't think of any solution, you can skip the question
+#Do you want to skip this question?[Y/N]#    
+=================================================
+If player think  his or her equation can get 24. They can input Y or y  and press enter. Then player can input their answer, and computer will compute the answer and notice if you are correct or not. After you got either right or wrong answer, The next question will come then.Is this game very simple? If you understand how to play this game, you may start to play Super 24.
+***
+Do you want to start Super 24 or re-read the instruction?(I/S)
