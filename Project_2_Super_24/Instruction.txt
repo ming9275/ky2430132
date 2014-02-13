@@ -11,3 +11,4 @@ If you can't think of any solution, you can skip the question
 =================================================
 If player think  his or her equation can get 24. They can input Y or y  and press enter. Then player can input their answer, and computer will compute the answer and notice if you are correct or not. If players input right answers, nothings will happen. If players input wrong answers, the computer will notice players that they get a mistake point. If players use more than 20 seconds to input their answers, they still get one mistake point even though they get a correct answer. The game will continues until players accumulate 5 mistake points. When the game is over, it will tell players how many points they get in this round of the game.
 ***
+Press I to read the instruction again, S for game start

@@ -15,14 +15,14 @@ using namespace std;
 //Global Constants
 const int COL=1;
 //Function Prototypes
-void filaray (int [][COL],int,int);
-void write (int [][COL],int,char[],short);
-void det24 (char ,char ,char ,float ,float ,float ,float,int);
-short genradN (short [],short);
-float calans (char &,char &,char &,float &,float &,float &,float &);
-void begin (char &);
-void Instrt (char&,string);
-void read (char,char,char,char,float,float,float,float,short [],short);
+void filaray (int [][COL],int,int);//fill the points in the array
+void write (int [][COL],int,char[],short);//output the array
+void det24 (char ,char ,char ,float ,float ,float ,float,int);//determine if the equation can be calculatd 24
+short genradN (short [],short);//generate random numbers
+float calans (char &,char &,char &,float &,float &,float &,float &);//the equation
+void begin (char &);// the introduction
+void Instrt (char&,string);//output the instruction
+void read (char,char,char,char,float,float,float,float,short [],short);//skip the question or not 
 //Execution Begins Here!
 int main(int argc, char** argv) {
 //Declare Variables
@@ -50,7 +50,7 @@ int main(int argc, char** argv) {
       Instrt (strt,inst);
     }
     //Game part
-        cout<<"================Let's start Super 24================"<<endl; 
+    cout<<"================Let's start Super 24================"<<endl; 
         do{
             int sttTime=time(0);
             //write and skip the question 
@@ -76,7 +76,7 @@ int main(int argc, char** argv) {
    //fill in the array
      filaray(point,ROW,Rcount);
    //Print the array
-     write (point,1,name,SIZE);
+    write (point,1,name,SIZE);
     cout<<"Do you want to play Super 24 again? [Y/N]"<<endl;
     cin>>repeat;
     }while (repeat=='y'||repeat=='Y');

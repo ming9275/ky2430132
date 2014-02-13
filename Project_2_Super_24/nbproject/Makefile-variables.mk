@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin_4.x-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin_4.x-Windows
-CND_ARTIFACT_NAME_Debug=super_24
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/super_24
+CND_ARTIFACT_NAME_Debug=project_2_super_24
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/project_2_super_24
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin_4.x-Windows/package
-CND_PACKAGE_NAME_Debug=super24.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/package/super24.tar
+CND_PACKAGE_NAME_Debug=project2super24.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/package/project2super24.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin_4.x-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin_4.x-Windows
-CND_ARTIFACT_NAME_Release=super_24
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin_4.x-Windows/super_24
+CND_ARTIFACT_NAME_Release=project_2_super_24
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin_4.x-Windows/project_2_super_24
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin_4.x-Windows/package
-CND_PACKAGE_NAME_Release=super24.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin_4.x-Windows/package/super24.tar
+CND_PACKAGE_NAME_Release=project2super24.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin_4.x-Windows/package/project2super24.tar
 #
 # include compiler specific variables
 #
